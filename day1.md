@@ -1,6 +1,6 @@
 ## Linux 命令操作
 ### 绝对路径与相对路径
-绝对路径：/User/username/Desktop/test/hello.js
+绝对路径：/User/username/Desktop/test/hello.js <br/>
 相对路径：test/hello.js ( 当前在 Desktop 目录 ）
 相对路径：../test/hello.js （ 当前在 Desktop/tmp/ 目录中，../ 表示相对自身当前的上一级目录 ）
 1. 根目录 / ，在 window 根目录上一般有 c 盘、d 盘、e 盘，在 mac 根目录上一般有 Applications 应用目录、Users 用户目录等等 。
@@ -8,9 +8,9 @@
 ### 切换目录与查看文件
 - pwd ，是 Print Working Directory 的缩写，用于显示当前路径。
 - cd，是  Change Directory 的缩写，用于切换文件夹。
-  cd /命令进入到根目录 （ 注意加空格： cd + 空格 + / ）
-  cd ～ 进入用户目录 
-  cd Desktop 相对路径命令进入到桌面目录
+    - cd /命令进入到根目录 （ 注意加空格： cd + 空格 + / ）
+    - cd ～ 进入用户目录 
+    - cd Desktop 相对路径命令进入到桌面目录
 - ls ，是 list 的缩写，用于列举目录内容。
 ### 创建文件夹、文件
 - mkdir ，是 make directory的缩写，用于创建目录。
